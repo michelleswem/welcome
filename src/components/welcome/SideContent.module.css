@@ -1,0 +1,114 @@
+.side {
+  flex: 0 0 50%;
+  background-color: rgba(249, 249, 249);
+  padding-left: 5rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .side {
+    flex-direction: column;
+    padding-left: 0;
+    padding: 3rem;
+  }
+}
+
+.logobox {
+  margin-bottom: 4rem;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: rgba(64, 129, 222);
+  margin: 2rem 0;
+}
+
+.header-text {
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+}
+.header-text h1 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.header-text p {
+  font-size: 1.2rem;
+  color: rgba(142, 146, 154);
+}
+.form-box {
+  margin-left: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.label {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+.input {
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(210, 215, 222);
+  width: 25rem;
+  height: 3.5rem;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .input {
+    width: 20rem;
+  }
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid rgb(21, 101, 216);
+}
+.input::-webkit-input-placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  padding-left: 10px;
+}
+
+.btn {
+  width: 25.5rem;
+  background-color: rgb(99, 152, 229);
+  border-radius: 0.5rem;
+  height: 3.5rem;
+  border: none;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  color: white;
+}
+@media only screen and (max-width: 37.5em) {
+  .btn {
+    width: 20rem;
+  }
+}
+.link-box {
+  margin-left: 2rem;
+}
+
+.text {
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(49, 119, 220);
+}
+@media only screen and (max-width: 68.75em) {
+  .link-box {
+    margin-bottom: 2rem;
+  }
+}

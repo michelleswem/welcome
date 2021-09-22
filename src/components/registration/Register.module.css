@@ -1,0 +1,101 @@
+.reg {
+  flex: 0 0 50%;
+
+  padding: 2rem 7rem;
+}
+
+.logo-con {
+  margin-bottom: 3rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: rgba(64, 129, 222);
+  margin: 1rem 0;
+}
+.header-text {
+  margin-bottom: 4rem;
+}
+.header-text h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.7rem;
+}
+
+.header-text p {
+  font-size: 1.1rem;
+  color: rgba(142, 146, 154);
+}
+.form {
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.form-group input {
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(210, 215, 222);
+  width: 27rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+.form-group input:focus {
+  outline: none;
+  border: 2px solid rgb(21, 101, 216);
+}
+.form-group input::-webkit-input-placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  padding-left: 10px;
+}
+.form-group button {
+  font-size: 1.1rem;
+  width: 27rem;
+  background-color: rgb(99, 152, 229);
+  border-radius: 0.5rem;
+  height: 3rem;
+  border: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  color: white;
+}
+.form-group2 {
+  margin-bottom: 4rem;
+}
+.form-group2 input {
+}
+
+.form-group2 label {
+  font-size: 1.1rem;
+  color: rgba(142, 146, 154);
+  margin-left: 1rem;
+}
+
+.link-box {
+  margin-top: 1.5rem;
+}
+.text {
+  font-size: 1.1rem;
+  color: rgba(142, 146, 154);
+}
+.link {
+  text-decoration: none;
+  color: rgb(49, 119, 220);
+  margin-left: 0.5rem;
+}

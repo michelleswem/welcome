@@ -1,0 +1,10 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 68.75em) {
+  .layout {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,27 @@
+.imgcontent {
+  flex: 1;
+  background-color: rgba(236, 236, 236);
+}
+
+.imgbox img {
+  width: 100%;
+  padding-left: 2rem;
+  margin-top: -2rem;
+}
+
+.detail {
+  text-align: center;
+}
+
+.detail h2 {
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.detail p {
+  font-size: 1rem;
+  color: rgba(142, 146, 154);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
