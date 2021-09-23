@@ -11,17 +11,6 @@
   }
 }
 
-.logobox {
-  margin-bottom: 4rem;
-}
-
-.header {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: rgba(64, 129, 222);
-  margin: 2rem 0;
-}
-
 .header-text {
   margin-bottom: 5rem;
   margin-left: 2rem;
@@ -64,11 +53,6 @@
   border-radius: 0.5rem;
   padding-left: 0.5rem;
 }
-@media only screen and (max-width: 37.5em) {
-  .input {
-    width: 20rem;
-  }
-}
 
 .input:focus {
   outline: none;
@@ -91,21 +75,15 @@
   cursor: pointer;
   color: white;
 }
-@media only screen and (max-width: 37.5em) {
-  .btn {
-    width: 20rem;
-  }
-}
+
 .link-box {
   margin-left: 2rem;
-}
-
-.text {
 }
 
 .link {
   text-decoration: none;
   color: rgb(49, 119, 220);
+  margin-left: 0.5rem;
 }
 @media only screen and (max-width: 68.75em) {
   .link-box {

@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom";
+import Logo from "../UI/Logo";
 import classes from "./SideContent.module.css";
 
 const SideContent = () => {
   return (
     <section className={classes.side}>
-      <div className={classes["logo-box"]}>
-        <p className={classes.header}>UBA DESIGN</p>
-      </div>
-
+      <Logo />
       <div className={classes["header-text"]}>
         <h1>Hi, Welcome Back!</h1>
         <p>Get onBoard, work and track progress</p>

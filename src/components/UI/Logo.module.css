@@ -1,0 +1,11 @@
+.logobox {
+  margin-bottom: 4rem;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: rgba(64, 129, 222);
+  margin: 2rem 0;
+  text-transform: uppercase;
+}

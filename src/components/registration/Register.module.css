@@ -1,19 +1,8 @@
 .reg {
   flex: 0 0 50%;
-
   padding: 2rem 7rem;
 }
 
-.logo-con {
-  margin-bottom: 3rem;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: rgba(64, 129, 222);
-  margin: 1rem 0;
-}
 .header-text {
   margin-bottom: 4rem;
 }
@@ -27,8 +16,6 @@
 .header-text p {
   font-size: 1.1rem;
   color: rgba(142, 146, 154);
-}
-.form {
 }
 
 .form-group {
@@ -77,6 +64,8 @@
 }
 .form-group2 {
   margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
 }
 .form-group2 input {
 }

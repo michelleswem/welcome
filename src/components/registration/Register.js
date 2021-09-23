@@ -1,12 +1,11 @@
 import classes from "./Register.module.css";
 import { Link } from "react-router-dom";
+import Logo from "../UI/Logo";
 
 const Register = () => {
   return (
     <section className={classes.reg}>
-      <div className={classes["logo-con"]}>
-        <p className={classes.logo}>UBA DESIGN</p>
-      </div>
+      <Logo />
       <div className={classes["header-text"]}>
         <h1>Register Account</h1>
         <p>
